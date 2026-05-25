@@ -36,8 +36,8 @@ That's it — restart Spotify and navigate to any artist page.
 ### Build from source
 
 ```powershell
-git clone https://github.com/your-username/add-new-by-artist
-cd slawek-spotify
+git clone https://github.com/lorak12/add-new-by-artist
+cd add-new-by-artist
 npm install
 npm run build
 spicetify config extensions add-new-by-artist.js
