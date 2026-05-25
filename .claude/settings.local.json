@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\karol\\\\IdeaProjects\\\\slawek-spotify\" -Recurse -Force)",
+      "Bash(Select-Object -First 100)",
+      "Bash(Format-Table FullName)",
+      "Bash(Select-Object -Property FullName)",
+      "PowerShell(head *)"
+    ]
+  }
+}
